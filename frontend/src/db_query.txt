@@ -1,0 +1,8 @@
+DROP DATABASE hello_app;
+CREATE DATABASE hello_app;
+
+USE hello_app;
+
+CREATE TABLE messages ( id INT AUTO_INCREMENT PRIMARY KEY, text VARCHAR(255));
+
+INSERT INTO messages (text) VALUES ('Hello from MySQL!');
